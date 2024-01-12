@@ -1,0 +1,36 @@
+ABI=
+BUILD_DATE=2012-03-07 04:55:03 +0100
+BUILD_HOST=Minix minix 3.2.1 i686
+CATEGORIES=security
+CC_VERSION=gcc-4.4.6
+CFLAGS=-Wno-error -march=i586
+CMAKE_ARGS=
+CONFIGURE_ARGS=--prefix=/usr/pkg --install_prefix=/usr/tmp/work/security/openssl/work/.destdir --openssldir=/usr/pkg/etc/openssl shared threads no-fips minix-elf no-threads no-shared no-idea no-mdc2 no-rc5 no-zlib -Wno-error -march=i586  -lcompat_minix -lminlib  -Wl,-R/usr/pkg/lib
+CONFIGURE_ENV=PERL=/usr/pkg/bin/perl INSTALL_INFO= MAKEINFO=/usr/tmp/work/security/openssl/work/.tools/bin/makeinfo PKG_CONFIG= PKG_CONFIG_LIBDIR=/usr/tmp/work/security/openssl/work/.buildlink/lib/pkgconfig:/usr/tmp/work/security/openssl/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/tmp/work/security/openssl/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CXXCPP=cpp CC=gcc CFLAGS=-Wno-error\ -march=i586 CPPFLAGS=-D_NETBSD_SOURCE\ -D_MINIX\ -D_POSIX_SOURCE\ -D_COMPAT_MINIX CXX=g++ CXXFLAGS=-Wno-error\ -march=i586\ -D_NETBSD_SOURCE COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-lcompat_minix\ -lminlib\ -Wl,-R/usr/pkg/lib LINKER_RPATH_FLAG=-R PATH=/usr/tmp/work/security/openssl/work/.wrapper/bin:/usr/tmp/work/security/openssl/work/.buildlink/bin:/usr/tmp/work/security/openssl/work/.tools/bin:/usr/tmp/work/security/openssl/work/.gcc/bin:/usr/pkg/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pbulk/bin:/usr/pbulk/sbin:/usr/pkg.sav/gcc44/bin:/usr/pkg.sav/bin:/usr/pkg.sav/sbin:/home/beng/bin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/pkg/X11R6/bin:/usr/pkg/bin:/usr/pkg/X11R6/bin PREFIX=/usr/pkg PKG_SYSCONFDIR=/usr/pkg/etc/openssl HOME=/usr/tmp/work/security/openssl/work/.home
+CPPFLAGS= -D_NETBSD_SOURCE -D_MINIX -D_POSIX_SOURCE -D_COMPAT_MINIX  
+FFLAGS=-O
+GMAKE=GNU Make 3.82
+HOMEPAGE=http://www.openssl.org/
+LDFLAGS= -lcompat_minix -lminlib  -Wl,-R/usr/pkg/lib
+LICENSE=
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=i386
+MACHINE_GNU_ARCH=i386
+MAINTAINER=pkgsrc-users@NetBSD.org
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=a.out
+OPSYS=Minix
+OS_VERSION=3.2.1
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=security/openssl
+PKGTOOLS_VERSION=20110805
+PKG_OPTIONS=
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc/openssl
+RESTRICTED=
+_PLIST_IGNORE_FILES=
+_USE_DESTDIR=user-destdir

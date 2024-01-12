@@ -1,0 +1,95 @@
+@cwd /usr/pkg
+@pkgcfl sftp-[0-9]*
+@pkgcfl ssh-[0-9]*
+@pkgcfl ssh6-[0-9]*
+@pkgcfl ssh2-[0-9]*
+@pkgcfl ssh2-nox11-[0-9]*
+@pkgcfl openssh+gssapi-[0-9]*
+@pkgcfl lsh>2.0
+@name openssh-5.8.2nb5
+@blddep openssl-0.9.8qnb3
+@pkgdep openssl>=0.9.8knb1
+@blddep digest-20111104
+@blddep gzip-1.3.12nb3
+@blddep perl-5.14.2
+@blddep gcc44-4.4.6nb4
+@comment $NetBSD: PLIST,v 1.13 2009/06/14 18:13:34 joerg Exp $
+bin/scp
+@comment MD5:a4d1d5a2c6f36d1ce8217d4194fcf400
+bin/sftp
+@comment MD5:1e71da3bd9ebd0bf7d2c61b01a0817fe
+bin/slogin
+@comment Symlink:./ssh
+bin/ssh
+@comment MD5:671278adfc1f8fe6a40f3f7ed5eca01a
+bin/ssh-add
+@comment MD5:b87f7ab49cc8ac05200ff4e05f8f8b12
+bin/ssh-agent
+@comment MD5:66296b07bd5dfe3625794fb3108362d1
+bin/ssh-keygen
+@comment MD5:0d25a781b2a82994998650da422a0df8
+bin/ssh-keyscan
+@comment MD5:cf65ba531a390a06c76f03c032f22400
+libexec/sftp-server
+@comment MD5:57eb44703537cca15253c41a276e6214
+libexec/ssh-keysign
+@comment MD5:0d7b5f41da943b61812fb7efa5ac4341
+libexec/ssh-pkcs11-helper
+@comment MD5:939993c83c126ab3e10ec74fa21cba5a
+man/man1/scp.1
+@comment MD5:004c32579a275957510f300c43a4f59f
+man/man1/sftp.1
+@comment MD5:b610a42e3a6244066aaaeac95ff3eb56
+man/man1/slogin.1
+@comment Symlink:./ssh.1
+man/man1/ssh-add.1
+@comment MD5:0bc930cbf496f2ffca1a072317d8d5f4
+man/man1/ssh-agent.1
+@comment MD5:e7f54a0b05015e8fe6826110f4e2669c
+man/man1/ssh-keygen.1
+@comment MD5:98797dccd43a7a4230458a5c1f2ff714
+man/man1/ssh-keyscan.1
+@comment MD5:320b20d8caf2198b54a8c7851216c065
+man/man1/ssh.1
+@comment MD5:16f8ff4fe847302d18a21c92a171aa4c
+man/man5/moduli.5
+@comment MD5:ccc87132a2dd8762887048444b29663a
+man/man5/ssh_config.5
+@comment MD5:ca558b781f9109433da7d45e233f3498
+man/man5/sshd_config.5
+@comment MD5:21ae9ad6d2f1a2a0cd9b49f2d307bcc1
+man/man8/sftp-server.8
+@comment MD5:c2746fd08b10b9cd6c66c4c5d5787d2b
+man/man8/ssh-keysign.8
+@comment MD5:eadd41ed42ad90eff83b16425a6c2c26
+man/man8/ssh-pkcs11-helper.8
+@comment MD5:8d6a68026ebd5bc26ab4acabbea47ccf
+man/man8/sshd.8
+@comment MD5:c044e7331a46706f23dc64e8b29fa683
+sbin/sshd
+@comment MD5:be9f9485612c7226ccb3c681baa1e8cc
+share/examples/openssh/moduli
+@comment MD5:8342d867964cdd997568e98f75c5c4f0
+share/examples/openssh/ssh_config
+@comment MD5:2c113824341eb4ab272c0b5b6bba1ae8
+share/examples/openssh/sshd_config
+@comment MD5:4f400055bcc110e90c37978775312ff7
+share/examples/rc.d/sshd
+@comment MD5:cc6f427855fef4e688b0b0774c44dda9
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

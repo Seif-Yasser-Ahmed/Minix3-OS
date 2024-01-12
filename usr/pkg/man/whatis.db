@@ -1,0 +1,28 @@
+BmoduliP (5) - Diffie Hellman moduli
+BscpP (1) - secure copy (remote file copy program)
+Bsftp-serverP (8) - SFTP server subsystem
+BsftpP (1) - secure file transfer program
+Bssh-addP (1) - adds private key identities to the authentication agent
+Bssh-agentP (1) - authentication agent
+Bssh-keygenP (1) - authentication key generation, management and conversion
+Bssh-keyscanP (1) - gather ssh public keys
+Bssh-keysignP (8) - ssh helper program for host-based authentication
+Bssh-pkcs11-helperP (8) - ssh-agent helper program for PKCS#11 support
+BsshP (1) - OpenSSH SSH client (remote login program)
+Bssh_configP (5) - OpenSSH SSH client configuration files
+BsshdP (8) - OpenSSH SSH daemon
+Bsshd_configP (5) - OpenSSH SSH daemon configuration file
+audit-packages (8) - report vulnerabilities for the installed packages
+bmake (1) - maintain program dependencies
+download-vulnerability-list (8) - download vulnerability list used for checking installed packages
+pkg_add (1) - a utility for installing and upgrading software package distributions
+pkg_admin (1) - perform various administrative tasks to the pkg system
+pkg_create (1) - a utility for creating software package distributions
+pkg_delete (1) - a utility for deleting previously installed software package distributions
+pkg_info (1) - a utility for displaying information on software packages
+pkg_install.conf (5) - configuration file for package installation tools
+pkg_summary (5) - summary of binary package repository
+pkgin (1) - A tool to manage pkgsrc binary packages.
+pkgsrc (7) - NetBSD packages collection (framework for third-party software)
+readline (3) - get a line from a user with editing
+sqlite3 (1) - A command line interface for SQLite version 3

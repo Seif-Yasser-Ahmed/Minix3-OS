@@ -1,0 +1,2 @@
+/usr/pkg/sbin/pkg_add -f /usr/var/db/pkgin/cache/openssl-0.9.8qnb3.tgz
+/usr/pkg/sbin/pkg_add -f /usr/var/db/pkgin/cache/openssh-5.8.2nb5.tgz
